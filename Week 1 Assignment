@@ -1,0 +1,21 @@
+#The current reservoir-volume (in cubic metres)
+reservoir-volume=4.45*float(10^8)
+#The amount of rainfall due to storm(in cubic metres)
+rainfall=5*float(10^6)
+#decrease of rainfall by 10%
+rainfall-one=90/100*rainfall
+#addition of reservoir-volume and rainfall-one
+sum=("reservoir-volume+rainfall-one")
+print("sum")
+#increasing the reservoir-volume by 5%
+reservoir-volume-one=105/100*reservoir-volume
+print ("reservoir-volume-one")
+#decreasing the reservoir-volume by5%
+reservoir-volume-two=95/100*reservoir-volume-one
+print("reservoir-volume-two")
+#subtracting 2.5e5 from the reservoir-volume-two
+reservoir-volume-three=reservoir-volume-two_2.5e5*float (10^5)
+print("reservoir-volume-three")
+
+
+
